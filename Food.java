@@ -44,7 +44,7 @@ public void setFoodPrice(double foodPrice) {
 public Food( String foodName, String foodType, String foodCategory, String foodDescription,
 		double foodPrice) {
 	super();
-//	this.foodId = foodId;
+	this.foodId = foodId;
 	this.foodName = foodName;
 	this.foodType = foodType;
 	this.foodCategory = foodCategory;
